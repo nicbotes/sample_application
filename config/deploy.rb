@@ -49,10 +49,10 @@ lock '3.5.0'
 
 
 # Change these
-server 'your_server_ip', port: your_port_num, roles: [:web, :app, :db], primary: true
+server '54.149.153.105', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@example.com:username/appname.git'
-set :application,     'appname'
+set :repo_url,        'git@github.com:nicbotes/sample_application.git'
+set :application,     'sample_application'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
